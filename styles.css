@@ -1,0 +1,40 @@
+
+form {
+    display: grid;
+    padding: 1em;
+    background: #f7d5ee;
+    border: 1px solid #c1c1c1;
+    margin: 2rem auto 0 auto;
+    max-width: 600px;
+    padding: 1em;
+  }
+
+  .vaihtoehdot {
+    padding: 1em;
+    background: #f9eaf3;
+    margin: 2rem auto 0 auto;
+    max-width: 600px;
+    padding: 1em;
+  }
+
+  div {
+    padding: 1em;
+    background: #f9eaf3;
+    margin: 2rem auto 0 auto;
+    max-width: 600px;
+    padding: 1em;
+  }
+
+  input[type="radio"],
+input[type="checkbox"] {
+  height: 1.2em;
+  width: 1.2em;
+  vertical-align: middle;
+}
+
+@media (min-width: 400px) {
+    form {
+      grid-template-columns: 200px 1fr;
+      grid-gap: 16px;
+    }
+}
